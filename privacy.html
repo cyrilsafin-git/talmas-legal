@@ -42,11 +42,11 @@ html[data-lang] article+article{margin-top:0;padding-top:0;border-top:0}
 
 <article lang="en" id="en">
 <h1>Talmas privacy policy</h1>
-<p class="meta">Effective September 20, 2026</p>
+<p class="meta">Effective September 21, 2026</p>
 <p>Talmas (“the app”) is a workout journal for Android developed by Kirill Safin (“we”, “the developer”). This policy explains what data the app handles and what choices you have. Contact: <a href="mailto:talmas.fitapp@gmail.com">talmas.fitapp@gmail.com</a>.</p>
 
 <h2>In short</h2>
-<p>Your workout data lives on your device. It leaves the device only if you sign in with Google and use cloud backup. The app has no ads, no analytics and no tracking. We do not sell your data and do not share it with anyone except Google, which hosts the backup.</p>
+<p>Your workout data lives on your device. It leaves the device only if you sign in with Google and use cloud backup. The app shows a banner ad served by Google AdMob; your workout data, profile and photo are never sent to advertisers. We add no analytics or tracking tools of our own, and we do not sell your data.</p>
 
 <h2>Data the app stores on your device</h2>
 <ul>
@@ -58,23 +58,29 @@ html[data-lang] article+article{margin-top:0;padding-top:0;border-top:0}
 
 <h2>Optional: Google sign-in and cloud backup</h2>
 <p>You can use the app without an account. If you choose “Sign in with Google”, the app uses Google Sign-In and Firebase Authentication to identify you. Firebase receives your Google account ID, email address and name.</p>
-<p>While you are signed in, the app saves a copy of your profile, body measurements, custom exercises and workouts to Cloud Firestore, in a single record tied to your account ID. The copy is updated when you tap “Save copy” and automatically about once a week when you are online. “Restore” replaces the data on your device with the copy from the cloud.</p>
-<p>The copy is stored on Google’s servers in Europe (Firestore location eur3) and is sent over encrypted connections. Security rules allow only you, signed in to your own account, to read or write your record. The developer has administrative access to the Firebase project and does not look at your data except when needed to run the service or when you ask for help.</p>
-<p>When the app communicates with Firebase, Google, as our service provider, processes technical data such as your IP address and device information. See <a href="https://policies.google.com/privacy" rel="noopener">Google’s privacy policy</a>.</p>
+<p>While you are signed in, the app saves a copy of your profile (including unit system, rest-timer length and theme), body measurements, your own and favorite exercises, and all workouts with their sets to Cloud Firestore, in records tied to your account ID: one main record plus one record per month of workouts. If you added a profile photo, a small compressed copy of it is included too. The copy is updated when you tap “Save copy” and automatically about once a week when you are online. “Restore” replaces the data on your device with the copy from the cloud.</p>
+<p>The copy is stored on Google’s servers in Europe (Firestore location eur3) and is sent over encrypted connections. Security rules allow only you, signed in to your own account, to read or write your records. The developer has administrative access to the Firebase project and does not look at your data except when needed to run the service or when you ask for help.</p>
+<p>When the app communicates with Firebase, Google, as our service provider, processes technical data such as your IP address and device information. Firebase Authentication may also use Google services such as reCAPTCHA and Play Integrity to protect against abuse. See <a href="https://policies.google.com/privacy" rel="noopener">Google’s privacy policy</a>.</p>
+
+<h2>Advertising</h2>
+<p>Talmas shows one banner ad at the bottom of the screen, served by Google AdMob. There are no full-screen, video or rewarded ads. To show ads, the Google Mobile Ads SDK may collect and process, on Google’s side: your IP address (and the approximate location derived from it), interactions with ads (impressions and clicks), diagnostics such as crashes and performance, and device and account identifiers, including the advertising ID. Google uses this to show and measure ads and to prevent fraud, and may process it in countries other than yours. Your workout data, profile and photo are not included in ad requests. See <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">how Google uses information from apps that use its services</a>.</p>
+<p>If you are in the European Economic Area or the United Kingdom, the app asks for your consent through Google’s consent form before any ad is requested, and no ads are requested until consent allows it. You can review your choice at any time in About → Ad settings. You can also reset or delete your advertising ID in your Android settings (Settings → Google → Ads).</p>
+
+<h2>Exercise library</h2>
+<p>The built-in exercise library uses data from RepDB (repdb.co) and is stored inside the app. No data about you is sent to RepDB.</p>
 
 <h2>What we do not do</h2>
 <ul>
-  <li>We do not show ads and do not use advertising IDs.</li>
-  <li>We do not use analytics or tracking tools.</li>
-  <li>We do not sell your data or share it with third parties, except Google as described above.</li>
+  <li>We do not add analytics or tracking tools of our own.</li>
+  <li>We do not sell your data or share it with third parties, except Google (Firebase for backup, AdMob for ads) as described in this policy.</li>
 </ul>
-<p>If we add ads or paid subscriptions in the future, we will update this policy before releasing that version.</p>
+<p>If we introduce paid subscriptions, payments will be handled by Google Play, and we will update this policy before releasing that version.</p>
 
 <h2>Retention and deletion</h2>
 <p>Data on your device stays there until you delete it or uninstall the app. The cloud copy stays until you delete your account. You can delete your account and cloud data inside the app or by email: see <a href="delete-account.html#en">how to delete your account</a>. When an account is deleted, we delete the cloud copy and the sign-in record.</p>
 
 <h2>Children</h2>
-<p>Talmas is not intended for children under 13, and we do not knowingly collect their data. If you believe a child has used cloud backup, write to us and we will delete the data.</p>
+<p>Talmas is intended for adults (18+) and is not directed to children. We do not knowingly collect data from children. If you believe a child has used the app’s cloud backup, write to us and we will delete the data.</p>
 
 <h2>Your choices</h2>
 <p>You can view and edit your data in the app. You can use the app without signing in. You can ask us for a copy of your cloud data, or ask us to correct or delete it, at <a href="mailto:talmas.fitapp@gmail.com">talmas.fitapp@gmail.com</a>.</p>
@@ -88,11 +94,11 @@ html[data-lang] article+article{margin-top:0;padding-top:0;border-top:0}
 
 <article lang="ru" id="ru">
 <h1>Политика конфиденциальности Talmas</h1>
-<p class="meta">Действует с 20 сентября 2026 г.</p>
+<p class="meta">Действует с 21 сентября 2026 г.</p>
 <p>Talmas («приложение») — дневник тренировок для Android. Его разрабатывает Кирилл Сафин («мы», «разработчик»). Здесь описано, какие данные обрабатывает приложение и какой выбор есть у вас. Связаться с нами: <a href="mailto:talmas.fitapp@gmail.com">talmas.fitapp@gmail.com</a>.</p>
 
 <h2>Коротко</h2>
-<p>Данные о ваших тренировках хранятся на вашем устройстве. Они покидают его, только если вы входите через Google и пользуетесь облачной копией. В приложении нет рекламы, аналитики и отслеживания. Мы не продаём ваши данные и не передаём их никому, кроме Google, на серверах которого хранится копия.</p>
+<p>Данные о ваших тренировках хранятся на вашем устройстве. Они покидают его, только если вы входите через Google и пользуетесь облачной копией. В приложении показывается баннерная реклама Google AdMob; данные о тренировках, профиль и фото рекламодателям не передаются. Мы не добавляем собственных инструментов аналитики и отслеживания и не продаём ваши данные.</p>
 
 <h2>Данные, которые приложение хранит на вашем устройстве</h2>
 <ul>
@@ -104,23 +110,29 @@ html[data-lang] article+article{margin-top:0;padding-top:0;border-top:0}
 
 <h2>По желанию: вход через Google и облачная копия</h2>
 <p>Приложением можно пользоваться без аккаунта. Если вы выберете «Войти через Google», приложение использует Google Sign-In и Firebase Authentication, чтобы вас опознать. Firebase получает идентификатор вашего аккаунта Google, адрес электронной почты и имя.</p>
-<p>Пока вы вошли в аккаунт, приложение сохраняет копию вашего профиля, замеров тела, собственных упражнений и тренировок в Cloud Firestore, одной записью, привязанной к идентификатору аккаунта. Копия обновляется, когда вы нажимаете «Сохранить копию», и автоматически примерно раз в неделю при наличии интернета. «Восстановить» заменяет данные на устройстве копией из облака.</p>
-<p>Копия хранится на серверах Google в Европе (регион Firestore eur3) и передаётся по зашифрованным соединениям. Правила доступа позволяют читать и изменять запись только вам, вошедшему в свой аккаунт. У разработчика есть административный доступ к проекту Firebase, но мы не просматриваем ваши данные, кроме случаев, когда это нужно для работы сервиса или вы сами просите о помощи.</p>
-<p>Когда приложение обращается к Firebase, Google как наш поставщик услуг обрабатывает технические данные, например IP-адрес и сведения об устройстве. Подробнее — в <a href="https://policies.google.com/privacy?hl=ru" rel="noopener">политике конфиденциальности Google</a>.</p>
+<p>Пока вы вошли в аккаунт, приложение сохраняет в Cloud Firestore копию вашего профиля (включая систему мер, время отдыха и тему), замеров тела, ваших собственных и избранных упражнений и всех тренировок с подходами, записями, привязанными к идентификатору аккаунта: одной основной и по одной на каждый месяц тренировок. Если вы добавили фото профиля, в копию входит и его небольшая сжатая версия. Копия обновляется, когда вы нажимаете «Сохранить копию», и автоматически примерно раз в неделю при наличии интернета. «Восстановить» заменяет данные на устройстве копией из облака.</p>
+<p>Копия хранится на серверах Google в Европе (регион Firestore eur3) и передаётся по зашифрованным соединениям. Правила доступа позволяют читать и изменять записи только вам, вошедшему в свой аккаунт. У разработчика есть административный доступ к проекту Firebase, но мы не просматриваем ваши данные, кроме случаев, когда это нужно для работы сервиса или вы сами просите о помощи.</p>
+<p>Когда приложение обращается к Firebase, Google как наш поставщик услуг обрабатывает технические данные, например IP-адрес и сведения об устройстве. Для защиты от злоупотреблений Firebase Authentication может также использовать сервисы Google, такие как reCAPTCHA и Play Integrity. Подробнее — в <a href="https://policies.google.com/privacy?hl=ru" rel="noopener">политике конфиденциальности Google</a>.</p>
+
+<h2>Реклама</h2>
+<p>В Talmas показывается один баннер внизу экрана, его предоставляет Google AdMob. Полноэкранной, видео- и «наградной» рекламы нет. Чтобы показывать рекламу, Google Mobile Ads SDK может собирать и обрабатывать на стороне Google: ваш IP-адрес (и приблизительное местоположение по нему), взаимодействие с рекламой (показы и клики), диагностику (сбои, производительность), а также идентификаторы устройства и аккаунта, включая рекламный идентификатор. Google использует это, чтобы показывать и оценивать рекламу и предотвращать мошенничество, и может обрабатывать данные в других странах. Данные о тренировках, профиль и фото в рекламные запросы не передаются. Подробнее — <a href="https://policies.google.com/technologies/partner-sites?hl=ru" rel="noopener">как Google использует информацию из приложений, использующих его сервисы</a>.</p>
+<p>Если вы находитесь в Европейской экономической зоне или Великобритании, перед первым запросом рекламы приложение запрашивает ваше согласие через форму Google, и пока согласие не позволяет, реклама не запрашивается. Свой выбор можно пересмотреть в любой момент: «О приложении» → «Настройки рекламы». Рекламный идентификатор можно сбросить или удалить в настройках Android (Настройки → Google → Реклама).</p>
+
+<h2>Справочник упражнений</h2>
+<p>Встроенный справочник упражнений использует данные RepDB (repdb.co) и хранится внутри приложения. Данные о вас в RepDB не передаются.</p>
 
 <h2>Чего мы не делаем</h2>
 <ul>
-  <li>Не показываем рекламу и не используем рекламные идентификаторы.</li>
-  <li>Не используем инструменты аналитики и отслеживания.</li>
-  <li>Не продаём ваши данные и не передаём их третьим лицам, кроме Google в описанном выше случае.</li>
+  <li>Не добавляем собственных инструментов аналитики и отслеживания.</li>
+  <li>Не продаём ваши данные и не передаём их третьим лицам, кроме Google (Firebase для копии, AdMob для рекламы) в описанных в этой политике случаях.</li>
 </ul>
-<p>Если в будущем мы добавим рекламу или платные подписки, мы обновим эту политику до выхода такой версии.</p>
+<p>Если мы введём платные подписки, оплату будет обрабатывать Google Play, и мы обновим эту политику до выхода такой версии.</p>
 
 <h2>Хранение и удаление</h2>
 <p>Данные на устройстве остаются там, пока вы не удалите их или само приложение. Облачная копия хранится, пока вы не удалите аккаунт. Удалить аккаунт и облачные данные можно в приложении или по электронной почте: <a href="delete-account.html#ru">как удалить аккаунт</a>. При удалении аккаунта мы удаляем облачную копию и запись о входе.</p>
 
 <h2>Дети</h2>
-<p>Talmas не предназначен для детей младше 13 лет, и мы сознательно не собираем их данные. Если вы считаете, что ребёнок пользовался облачной копией, напишите нам, и мы удалим данные.</p>
+<p>Talmas предназначен для взрослых (18+) и не адресован детям. Мы сознательно не собираем данные детей. Если вы считаете, что ребёнок пользовался облачной копией приложения, напишите нам, и мы удалим данные.</p>
 
 <h2>Ваш выбор</h2>
 <p>Вы можете просматривать и изменять свои данные в приложении. Приложением можно пользоваться без входа. Вы можете попросить у нас копию ваших облачных данных или попросить исправить либо удалить их: <a href="mailto:talmas.fitapp@gmail.com">talmas.fitapp@gmail.com</a>.</p>
