@@ -42,7 +42,7 @@ html[data-lang] article+article{margin-top:0;padding-top:0;border-top:0}
 
 <article lang="en" id="en">
 <h1>Talmas privacy policy</h1>
-<p class="meta">Effective September 21, 2026</p>
+<p class="meta">Effective September 22, 2026</p>
 <p>Talmas (“the app”) is a workout journal for Android developed by Kirill Safin (“we”, “the developer”). This policy explains what data the app handles and what choices you have. Contact: <a href="mailto:talmas.fitapp@gmail.com">talmas.fitapp@gmail.com</a>.</p>
 
 <h2>In short</h2>
@@ -58,7 +58,8 @@ html[data-lang] article+article{margin-top:0;padding-top:0;border-top:0}
 
 <h2>Optional: Google sign-in and cloud backup</h2>
 <p>You can use the app without an account. If you choose “Sign in with Google”, the app uses Google Sign-In and Firebase Authentication to identify you. Firebase receives your Google account ID, email address and name.</p>
-<p>While you are signed in, the app saves a copy of your profile (including unit system, rest-timer length and theme), body measurements, your own and favorite exercises, and all workouts with their sets to Cloud Firestore, in records tied to your account ID: one main record plus one record per month of workouts. If you added a profile photo, a small compressed copy of it is included too. The copy is updated when you tap “Save copy” and automatically about once a week when you are online. “Restore” replaces the data on your device with the copy from the cloud.</p>
+<p>While you are signed in, the app saves a copy of your profile (including unit system, rest-timer length and theme), body measurements, your own and favorite exercises, and all workouts with their sets to Cloud Firestore, in records tied to your account ID: one main record plus one record per month of workouts. If you added a profile photo, a small compressed copy of it is included too. The copy is updated when you tap “Save copy” and automatically about once a week when you are online. “Restore” replaces the data on your device with the copy from the cloud. Before an existing cloud copy is replaced with a newer one, we briefly keep the previous version as a safety snapshot, in case something goes wrong with the new copy; it is deleted together with the rest of your cloud data if you delete your account.</p>
+<p>You can sign out of your Google account in the app at any time. Signing out first saves a fresh copy of your data to the cloud, then removes that data from this device; it stays available in your cloud copy for your next sign-in, on this device or another one.</p>
 <p>The copy is stored on Google’s servers in Europe (Firestore location eur3) and is sent over encrypted connections. Security rules allow only you, signed in to your own account, to read or write your records. The developer has administrative access to the Firebase project and does not look at your data except when needed to run the service or when you ask for help.</p>
 <p>When the app communicates with Firebase, Google, as our service provider, processes technical data such as your IP address and device information. Firebase Authentication may also use Google services such as reCAPTCHA and Play Integrity to protect against abuse. See <a href="https://policies.google.com/privacy" rel="noopener">Google’s privacy policy</a>.</p>
 
@@ -94,7 +95,7 @@ html[data-lang] article+article{margin-top:0;padding-top:0;border-top:0}
 
 <article lang="ru" id="ru">
 <h1>Политика конфиденциальности Talmas</h1>
-<p class="meta">Действует с 21 сентября 2026 г.</p>
+<p class="meta">Действует с 22 сентября 2026 г.</p>
 <p>Talmas («приложение») — дневник тренировок для Android. Его разрабатывает Кирилл Сафин («мы», «разработчик»). Здесь описано, какие данные обрабатывает приложение и какой выбор есть у вас. Связаться с нами: <a href="mailto:talmas.fitapp@gmail.com">talmas.fitapp@gmail.com</a>.</p>
 
 <h2>Коротко</h2>
@@ -110,7 +111,8 @@ html[data-lang] article+article{margin-top:0;padding-top:0;border-top:0}
 
 <h2>По желанию: вход через Google и облачная копия</h2>
 <p>Приложением можно пользоваться без аккаунта. Если вы выберете «Войти через Google», приложение использует Google Sign-In и Firebase Authentication, чтобы вас опознать. Firebase получает идентификатор вашего аккаунта Google, адрес электронной почты и имя.</p>
-<p>Пока вы вошли в аккаунт, приложение сохраняет в Cloud Firestore копию вашего профиля (включая систему мер, время отдыха и тему), замеров тела, ваших собственных и избранных упражнений и всех тренировок с подходами, записями, привязанными к идентификатору аккаунта: одной основной и по одной на каждый месяц тренировок. Если вы добавили фото профиля, в копию входит и его небольшая сжатая версия. Копия обновляется, когда вы нажимаете «Сохранить копию», и автоматически примерно раз в неделю при наличии интернета. «Восстановить» заменяет данные на устройстве копией из облака.</p>
+<p>Пока вы вошли в аккаунт, приложение сохраняет в Cloud Firestore копию вашего профиля (включая систему мер, время отдыха и тему), замеров тела, ваших собственных и избранных упражнений и всех тренировок с подходами, записями, привязанными к идентификатору аккаунта: одной основной и по одной на каждый месяц тренировок. Если вы добавили фото профиля, в копию входит и его небольшая сжатая версия. Копия обновляется, когда вы нажимаете «Сохранить копию», и автоматически примерно раз в неделю при наличии интернета. «Восстановить» заменяет данные на устройстве копией из облака. Перед тем как существующая облачная копия заменяется новой, мы недолго храним предыдущую версию как подстраховочный снимок на случай, если с новой копией что-то пойдёт не так; при удалении аккаунта он удаляется вместе с остальными облачными данными.</p>
+<p>Вы можете в любой момент выйти из аккаунта Google прямо в приложении. При выходе сначала сохраняется свежая копия ваших данных в облако, а затем эти данные удаляются с устройства; они остаются доступны в вашей облачной копии при следующем входе — на этом устройстве или на другом.</p>
 <p>Копия хранится на серверах Google в Европе (регион Firestore eur3) и передаётся по зашифрованным соединениям. Правила доступа позволяют читать и изменять записи только вам, вошедшему в свой аккаунт. У разработчика есть административный доступ к проекту Firebase, но мы не просматриваем ваши данные, кроме случаев, когда это нужно для работы сервиса или вы сами просите о помощи.</p>
 <p>Когда приложение обращается к Firebase, Google как наш поставщик услуг обрабатывает технические данные, например IP-адрес и сведения об устройстве. Для защиты от злоупотреблений Firebase Authentication может также использовать сервисы Google, такие как reCAPTCHA и Play Integrity. Подробнее — в <a href="https://policies.google.com/privacy?hl=ru" rel="noopener">политике конфиденциальности Google</a>.</p>
 
