@@ -58,7 +58,7 @@
 <li>Subscriptions are sold through <strong>Google Play Billing</strong>. Google processes your payment. We never see or store your card number or other payment details.</li>
 <li>The app receives from Google Play the status of your subscription and a purchase token, and keeps a cached copy of the status on your device so that PRO works offline.</li>
 <li>Your subscription belongs to the Google Play account used to buy it; signing in to Talmas is not required to buy or use PRO.</li>
-<li><strong>Free PRO access by invitation:</strong> if you are signed in with Google, the app reads one document in our database whose name is your Google email address (lower case) to check whether free PRO access has been granted to you. The device can only read this document, never write it.</li>
+<li>If you are signed in with Google, the app may use the email address of your Google account to determine which PRO features are available to you.</li>
 <li>From time to time we may run promotions that open some PRO features for everyone. Settings for this are delivered by Firebase Remote Config (see section 7).</li>
 </ul>
 
@@ -74,7 +74,7 @@
 
 <h2>7. Analytics, diagnostics and security</h2>
 <ul>
-<li><strong>Firebase Analytics:</strong> usage events (for example, which screens and features are used, PRO purchase funnel events) and a user property describing the access state (free, subscription, granted, promotion). You can turn this off in <em>Profile</em> ("Share analytics").</li>
+<li><strong>Firebase Analytics:</strong> usage events (for example, which screens and features are used, PRO purchase funnel events) and a user property describing the access state (for example, free or PRO). You can turn this off in <em>Profile</em> ("Share analytics").</li>
 <li><strong>Firebase Crashlytics:</strong> crash reports and caught errors with a short location label and the error itself. We do not attach your name, email or workout content.</li>
 <li><strong>Firebase Remote Config:</strong> the app downloads settings (such as promotions) and uses the standard Firebase installation identifier. No personal data from your workouts is sent.</li>
 <li><strong>Firebase App Check (Play Integrity):</strong> to protect our backend from abuse, Google may check that requests come from a genuine app on a genuine device.</li>
@@ -158,7 +158,7 @@
 <li>Подписка продаётся через <strong>Google Play Billing</strong>. Платёж обрабатывает Google. Мы не видим и не храним номер вашей карты и другие платёжные данные.</li>
 <li>Приложение получает от Google Play статус подписки и токен покупки и хранит копию статуса на устройстве, чтобы PRO работал офлайн.</li>
 <li>Подписка принадлежит аккаунту Google Play, с которого вы её купили; вход в Talmas для покупки и использования PRO не нужен.</li>
-<li><strong>Бесплатный PRO по приглашению:</strong> если вы вошли через Google, приложение читает один документ в нашей базе, название которого — ваш адрес Google-почты в нижнем регистре, чтобы узнать, выдан ли вам бесплатный PRO. Устройство может только читать этот документ, но не записывать.</li>
+<li>Если вы вошли через Google, приложение может использовать адрес электронной почты вашего аккаунта Google, чтобы определить, какие функции PRO вам доступны.</li>
 <li>Иногда мы можем проводить акции, открывающие часть функций PRO всем. Настройки акций передаёт Firebase Remote Config (см. раздел 7).</li>
 </ul>
 
@@ -174,7 +174,7 @@
 
 <h2>7. Аналитика, диагностика и безопасность</h2>
 <ul>
-<li><strong>Firebase Analytics:</strong> события использования (какие экраны и функции используются, события воронки покупки PRO) и свойство, описывающее состояние доступа (бесплатно, подписка, выдан, акция). Отключается в <em>Профиле</em> («Делиться аналитикой»).</li>
+<li><strong>Firebase Analytics:</strong> события использования (какие экраны и функции используются, события воронки покупки PRO) и свойство, описывающее состояние доступа (например, бесплатно или PRO). Отключается в <em>Профиле</em> («Делиться аналитикой»).</li>
 <li><strong>Firebase Crashlytics:</strong> отчёты о сбоях и пойманных ошибках с короткой меткой места и самой ошибкой. Имя, почта и содержимое тренировок не прикладываются.</li>
 <li><strong>Firebase Remote Config:</strong> приложение загружает настройки (например, акции) и использует стандартный идентификатор установки Firebase. Данные ваших тренировок не передаются.</li>
 <li><strong>Firebase App Check (Play Integrity):</strong> для защиты нашего сервера Google может проверять, что запросы приходят от настоящего приложения на настоящем устройстве.</li>
